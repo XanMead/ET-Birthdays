@@ -1,0 +1,46 @@
+PLANET INFORMATION
+
+ - Mercury:
+  * ☿ HTML code: &#9791;
+  * Orbital Period: 87.96926 days
+  * Mercury:Earth ratio = 0.2408425
+
+ - Venus:
+  * ♀ HTML code: &#9792;
+  * Orbital period: 224.7008 days
+  * Venus:Earth ratio = 0.6151866
+  *   
+ - Earth:
+  * ⊕ HTML code: &#8853;
+  * Orbital period: 365.25636 days
+  * Earth:Earth = 1
+    
+ - Mars:
+  * ♂ HTML code: &#9794;
+  * Orbital period: 686.9796 days
+  * Mars:Earth = 1.8808149
+ 
+ - Jupiter:
+  * ♃ HTML code: &#9795;
+  * Orbital period: 4332.82 days
+  * Jupiter:Earth = 11.862409
+
+ - Saturn:
+  * ♄ HTML code: &9796#;
+  * Orbital period: 10755.7 days
+  * Saturn:Earth: 29.446986
+
+ - Uranus:
+  * ♅ HTML code: &#9797;
+  * Orbital period: 30637.153 days
+  * Uranus:Earth = 84.01538
+
+ - Neptune:
+  * ♆ HTML code: &#9798;
+  * Orbital period: 60190.03 days
+  * Neptune:Earth = 164.78845
+
+ - Pluto:
+  * ♇ HTML code: &#9799;
+  * Orbital period: 90553.02 days
+  * Pluto:Earth = 247.91634
