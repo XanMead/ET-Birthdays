@@ -44,3 +44,7 @@ PLANET INFORMATION
   * ♇ HTML code: &#9799;
   * Orbital period: 90553.02 days
   * Pluto:Earth = 247.91634
+
+EXOPLANETS
+ - Kepler-438b:
+  * Orbital period: 35.23319
