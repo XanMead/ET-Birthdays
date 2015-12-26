@@ -1,5 +1,18 @@
 $(document).ready( function() {
-	$('.container').text(personWillTurn("The developer", devDOB));
+	$('.dob-entry').submit(function(event) {
+		console.log(this);
+		var enteredDob = $(this).find('input[name=user-dob]').val();
+		var userDob = moment(enteredDob, "MM-DD-YYYY");
+		if (userDob.isValid()) {
+			$('.results').html(assembleBirthdays(userDob))
+		}
+		else {
+			$(this).find('input[name=user-dob]').val('');
+			alert("Please enter a valid date.");
+		}
+	});
+
+	// $('.container').text(personWillTurn("The developer", devDOB));
 	logBirthdays(devDOB)
 });
 
@@ -10,6 +23,15 @@ function logBirthdays(dobMoment) {
 		console.log(et.toString());
 	}
 
+}
+
+function assembleBirthdays(dobMoment) {
+	var content = "";
+	for(var name in planets) {
+		var et = new ETBirthday(planets[name], new Birthday(dobMoment));
+		content += '<p class="planet">' + et.toString() + '</p>';
+	}
+	return content;
 }
 
 // Descriptive function, likely to be scrapped
