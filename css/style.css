@@ -2,6 +2,13 @@ body {
 	background-color: black;
 }
 
-.header, .results {
+.header,
+.results,
+.entry {
 	color: white;
+}
+
+.aside {
+	color: #ccc;
+	font-size: .75em;
 }
